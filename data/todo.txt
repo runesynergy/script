@@ -1,0 +1,10 @@
+animation/
+floor/
+identikit/
+item/
+locale/
+npc/
+object/
+projectile/
+spotanim/
+weapon_type/
