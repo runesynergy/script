@@ -1,17 +1,16 @@
 package weapon_type
 
 import (
-	"runesynergy.dev/enum"
-	"runesynergy.dev/enum/animation"
-	. "runesynergy.dev/enum/combat"
+	"common.runesynergy.dev/enum"
+	. "common.runesynergy.dev/enum/combat"
 )
 
 var Sword2H = enum.NewWeaponType(&enum.WeaponType{
-	Ref: "sword_2h",
+	Ref:        "sword_2h",
 	Animations: enum.WeaponAnimations{
-		ActionSlash:  animation.Slash2H,
-		ActionCrush:  animation.Crush2H,
-		ActionDefend: animation.Block2H,
+		// ActionSlash:  animation.Slash2H,
+		// ActionCrush:  animation.Crush2H,
+		// ActionDefend: animation.Block2H,
 	},
 	Sounds: enum.WeaponSounds{
 		ActionSlash: "2h_slash",
